@@ -1,6 +1,9 @@
 vi:
   static_pages:
     home:
+      ho: "Trang chủ"
+      vi: "Tiếng Việt"
+      en: "Tiếng Anh"
       sample: "Trang chủ"
       link1: "Đây là trang chủ của page"
       link2: "ứng dụng đơn giản"
@@ -14,3 +17,6 @@ vi:
       and: "và"
       to: "hướng dẫn các lập trình viên"
       This: "Là một trang web đơn giản"
+  layouts:
+    application:
+      baseTitle: "Ứng dụng web về  Ruby on Rails"
