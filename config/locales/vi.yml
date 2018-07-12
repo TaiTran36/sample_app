@@ -1,0 +1,16 @@
+vi:
+  static_pages:
+    home:
+      sample: "Trang chủ"
+      link1: "Đây là trang chủ của page"
+      link2: "ứng dụng đơn giản"
+    help: 
+      help: "Trợ giúp"
+      link3: "Tìm hướng dẫn về  Rails "
+      link4: "Đến trang web này bạn sẽ tìm được"
+    about:
+      about: "Giới thiệu"
+      is:    "là"
+      and: "và"
+      to: "hướng dẫn các lập trình viên"
+      This: "Là một trang web đơn giản"
