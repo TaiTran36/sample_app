@@ -1,9 +1,15 @@
-<% provide(:title, t(".ho")) %>
-    <%= link_to t(".en"), locale:"en" %>
-    <%= link_to t(".vi"), locale:"vi" %>
-    <h1><%= t ".sample" %></h1>
-    <p>
-    <%= t ".link1" %>
-    <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a>
-    <%= t ".link2" %>
-    </p>
+<% provide :title, t(".ho") %>
+<%= link_to t(".en"), locale:"en" %>
+<%= link_to t(".vi"), locale:"vi" %>
+<div class="center jumbotron">
+  <h1><%= t ".wel" %></h1>
+  <h2>
+    <%= t ".this" %>
+    <a href="http://www.railstutorial.org/"><%= t ".rails" %></a>
+    <%= t ".sample" %>
+  </h2>
+  <%= link_to t(".sign"), signup_path, class: "btn btn-lg btn-primary" %>
+</div>
+
+<%= link_to image_tag("rails.png", alt: "Rails logo"),
+  "http://rubyonrails.org/" %>
