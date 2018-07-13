@@ -4,19 +4,89 @@ vi:
       ho: "Trang chủ"
       vi: "Tiếng Việt"
       en: "Tiếng Anh"
-      sample: "Trang chủ"
-      link1: "Đây là trang chủ của page"
-      link2: "ứng dụng đơn giản"
+      wel: "Chào mừng đến với Ứng dụng"
+      this: "Đây là trang chủ của "
+      rails: "Hướng dẫn Ruby on Rails"
+      sample: "cơ bản."
+      sign: "Đăng nhập"
     help: 
+      vi: "Tiếng Việt"
+      en: "Tiếng Anh"
       help: "Trợ giúp"
-      link3: "Tìm hướng dẫn về  Rails "
-      link4: "Đến trang web này bạn sẽ tìm được"
+      get: "Cần giúp đỡ về Ruby on Rails tại"
+      link: "Trợ giúp Ruby on Rails"
+      app: "Để tìm hiểu thêm về  ứng dụng này, hãy tìm"
+      rails: "Cuốn sách Hướng dân Ruby on Rails"
+      book: ""
     about:
+      vi: "Tiếng Việt"
+      en: "Tiếng Anh"
       about: "Giới thiệu"
-      is:    "là"
+      the: "Đây là cuốn sách "
+      rails: "Hướng dẫn Ruby on Rails"
+      is:    ""
+      book: ""
       and: "và"
-      to: "hướng dẫn các lập trình viên"
-      This: "Là một trang web đơn giản"
+      to: " .Nó hướng dẫn các lập trình viên về"
+      This: ""
+    contact:
+      contact: "Liên hệ"
+      the: "Kết nối với Ruby on Rails về ứng dụng tại "
+      vi: "Tiếng Việt"
+      en: "Tiếng Anh"
+      contactPage: "trang liên kết"
+  users:
+    new:
+      vi: "Tiếng Việt"
+      en: "Tiếng Anh"
+      signup: "Đăng nhập"
+      wil: "Trang đăng nhập dành cho người mới sử dụng."
+      name: "Tên đăng nhập"
+      email: "Email đăng kí"
+      password: "Mật khẩu"
+      confirmation: "Xác nhận mật khẩu"
+      createMyAccount: "Tạo tài khoản"
   layouts:
     application:
       baseTitle: "Ứng dụng web về  Ruby on Rails"
+    header:
+      sample: "Ứng dụng"
+      home: "Trang chủ"
+      help: "Giúp đỡ"
+      log: "Đăng kí"
+    footer:
+      the: ""
+      rails: " Cuốn sách Hướng dẫn Ruby on Rails được viết bởi "
+      by: ""
+      about: "Giới thiệu"
+      ct: "Liên kết"
+      new: "Tin mới"
+  activerecord:
+    errors:
+      models:
+        user:
+          attributes:
+            name:
+              blank: "không thể để trống"
+            email:
+              blank: "không thể để trống"
+              invalid: "không hợp lệ"
+              taken: "đã được sử dụng để đăng ký tài khoản khác"
+            password:
+              blank: "không thể để trống"
+              too_short: "quá ngắn"
+              confirmation: "không khớp password đã chọn"
+    attributes:
+      user:
+        name: "Tên"
+        email: "Email"
+        password: "Mật khẩu"
+        password_confirmation: "Xác nhận mật khẩu"
+  shared:
+    error_message:
+      message: "Chào mừng đến với ứng dụng"
+      error: "lỗĩ"
+  controllers:
+    users_controller:
+      user_not_found: "Không tìm thấy tên"
+      success: "Thành công"
