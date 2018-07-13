@@ -32,6 +32,7 @@
 en:
   static_pages:
     home:
+      ho: "Home"
       sample: "Sample App"
       link1: "This is the home page for the"
       link2: "sample application."
@@ -45,3 +46,6 @@ en:
       and: "and"
       to: "to teach web development with"
       This: "This is the sample application for the tutorial."
+  layouts:
+    application:
+      baseTitle: "Ruby on Rails tutorial"
