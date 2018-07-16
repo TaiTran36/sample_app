@@ -33,19 +33,47 @@ en:
   static_pages:
     home:
       ho: "Home"
-      sample: "Sample App"
-      link1: "This is the home page for the"
-      link2: "sample application."
+      wel: "Welcome to the Sample App"
+      this: "This is the home page for the "
+      rails: "Ruby on Rails Tutoria"
+      sample: "sample application."
+      sign: "Sign up now!"
     help: 
       help: "Help"
-      link3: "Get help on the Ruby on Rails Tutorial at the"
-      link4: "To get help on this sample app, see the"
+      get: "Get help on the Ruby on Rails Tutorial at the"
+      link: "Rails Tutorial help section"
+      app: "get help on this sample app, see the"
+      rails: "Ruby on Rails Tutorial"
+      book: "book"
     about:
       about: "About"
+      the: "The"
+      rails:  "Ruby on Rails Tutorial"
       is:    "is a"
+      book: "book"
       and: "and"
       to: "to teach web development with"
       This: "This is the sample application for the tutorial."
+    contact:
+      contact: "Contact"
+      the: "Contact the Ruby on Rails Tutorial about the sample app at the"
+      contactPage: "Contact page"
+  users:
+    new:
+      signup: "Sign up"
+      wil: "This will be a signup page for new users."
   layouts:
     application:
       baseTitle: "Ruby on Rails tutorial"
+    header:
+      sample: "sample app"
+      home: "Home"
+      help: "Help"
+      log: "Log in"
+    footer:
+      the: "The "
+      rails: "Ruby on Rails Tutorial"
+      by: "by"
+      about: "About"
+      ct: "contact"
+      new: "News"
