@@ -62,6 +62,11 @@ en:
     new:
       signup: "Sign up"
       wil: "This will be a signup page for new users."
+      name: "name"
+      email: "email"
+      password: "password"
+      confirmation: "Confirmation"
+      createMyAccount: "Create my account"
   layouts:
     application:
       baseTitle: "Ruby on Rails tutorial"
@@ -77,3 +82,28 @@ en:
       about: "About"
       ct: "contact"
       new: "News"
+  activerecord:
+    errors:
+      models:
+        user:
+          attributes:
+            name:
+              blank: "can't be blank"
+            email:
+              blank: "can't be blank"
+              invalid: "is invalid"
+              taken: "has already been taken"
+            password:
+              blank: "can't be blank"
+              too_short: "is too short (minimum is 6 characters)"
+              confirmation: "doesn't match"
+    attributes:
+      user:
+        name: "Name"
+        email: "Email"
+        password: "Password"
+        password_confirmation: "Xác nhận mật khẩu"
+  shared:
+    error_message:
+      message: "The form contains "
+      error: "error"

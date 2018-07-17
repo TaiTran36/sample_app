@@ -37,8 +37,15 @@ vi:
       contactPage: "trang liên kết"
   users:
     new:
+      vi: "Tiếng Việt"
+      en: "Tiếng Anh"
       signup: "Đăng nhập"
       wil: "Trang đăng nhập dành cho người mới sử dụng."
+      name: "Tên đăng nhập"
+      email: "Email đăng kí"
+      password: "Mật khẩu"
+      confirmation: "Xác nhận mật khẩu"
+      createMyAccount: "Tạo tài khoản"
   layouts:
     application:
       baseTitle: "Ứng dụng web về  Ruby on Rails"
@@ -54,3 +61,28 @@ vi:
       about: "Giới thiệu"
       ct: "Liên kết"
       new: "Tin mới"
+  activerecord:
+    errors:
+      models:
+        user:
+          attributes:
+            name:
+              blank: "không thể để trống"
+            email:
+              blank: "không thể để trống"
+              invalid: "không hợp lệ"
+              taken: "đã được sử dụng để đăng ký tài khoản khác"
+            password:
+              blank: "không thể để trống"
+              too_short: "quá ngắn"
+              confirmation: "không khớp password đã chọn"
+    attributes:
+      user:
+        name: "Tên"
+        email: "Email"
+        password: "Mật khẩu"
+        password_confirmation: "Xác nhận mật khẩu"
+  shared:
+    error_message:
+      message: "Chào mừng đến với ứng dụng"
+      error: "lỗĩ"
