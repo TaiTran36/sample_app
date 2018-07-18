@@ -30,6 +30,7 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  
   static_pages:
     home:
       ho: "Home"
@@ -75,6 +76,11 @@ en:
       home: "Home"
       help: "Help"
       log: "Log in"
+      users: "Users"
+      account: "Account"
+      profile: "Profile"
+      settings: "Setting"
+      logout: "Log out"
     footer:
       the: "The "
       rails: "Ruby on Rails Tutorial"
@@ -82,6 +88,15 @@ en:
       about: "About"
       ct: "contact"
       new: "News"
+  sessions:
+    new:
+      login: "Log in"
+      newUser: "New User?"
+      signUpNow: "Sign Up Now!"
+      email: "Email"
+      password: "Password"
+    create:
+      invalid: "Invalid email/password combination"
   activerecord:
     errors:
       models:
@@ -107,3 +122,7 @@ en:
     error_message:
       message: "The form contains "
       error: "error"
+  controllers:
+    users_controller:
+      user_not_found: "User not found"
+      success: "Success"

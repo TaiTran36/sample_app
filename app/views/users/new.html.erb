@@ -1,3 +1,4 @@
+
 <% provide :title, t(".signup")  %>
 <%= link_to t(".en"), locale:"en" %>
 <%= link_to t(".vi"), locale:"vi" %>
@@ -16,7 +17,7 @@
         <%= f.label :password  %>
         <%= f.password_field :password, class: "form-control" %>
   
-        <%= f.label :password_confirmation, "Confirmation" %>
+        <%= f.label :password_confirmation, t(".confirmation") %>
         <%= f.password_field :password_confirmation, class: "form-control" %>
   
         <%= f.submit t(".createMyAccount") , class: "btn btn-primary" %>

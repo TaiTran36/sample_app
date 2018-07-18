@@ -1,17 +1,18 @@
 vi:
+
   static_pages:
     home:
-      ho: "Trang chủ"
       vi: "Tiếng Việt"
       en: "Tiếng Anh"
+      ho: "Trang chủ"
       wel: "Chào mừng đến với Ứng dụng"
       this: "Đây là trang chủ của "
       rails: "Hướng dẫn Ruby on Rails"
       sample: "cơ bản."
       sign: "Đăng nhập"
-    help: 
+    help:
       vi: "Tiếng Việt"
-      en: "Tiếng Anh"
+      en: "Tiếng Anh" 
       help: "Trợ giúp"
       get: "Cần giúp đỡ về Ruby on Rails tại"
       link: "Trợ giúp Ruby on Rails"
@@ -30,6 +31,8 @@ vi:
       to: " .Nó hướng dẫn các lập trình viên về"
       This: ""
     contact:
+      vi: "Tiếng Việt"
+      en: "Tiếng Anh"
       contact: "Liên hệ"
       the: "Kết nối với Ruby on Rails về ứng dụng tại "
       vi: "Tiếng Việt"
@@ -37,8 +40,6 @@ vi:
       contactPage: "trang liên kết"
   users:
     new:
-      vi: "Tiếng Việt"
-      en: "Tiếng Anh"
       signup: "Đăng nhập"
       wil: "Trang đăng nhập dành cho người mới sử dụng."
       name: "Tên đăng nhập"
@@ -54,6 +55,11 @@ vi:
       home: "Trang chủ"
       help: "Giúp đỡ"
       log: "Đăng kí"
+      users: "Người dùng"
+      account: "Tài khoản"
+      profile: "Trang của bạn"
+      settings: "Cài đặt"
+      logout: "Đăng xuất"
     footer:
       the: ""
       rails: " Cuốn sách Hướng dẫn Ruby on Rails được viết bởi "
@@ -61,6 +67,15 @@ vi:
       about: "Giới thiệu"
       ct: "Liên kết"
       new: "Tin mới"
+  sessions:
+    new:
+      login: "Đăng nhập"
+      newUser: "Tài khoản mới?"
+      signUpNow: "Đăng kí tài khoản!"
+      email: "Email"
+      password: "Mật khẩu"
+    create:
+      invalid: "Email hoặc mật khẩu không đúng"
   activerecord:
     errors:
       models:
@@ -86,3 +101,7 @@ vi:
     error_message:
       message: "Chào mừng đến với ứng dụng"
       error: "lỗĩ"
+  controllers:
+    users_controller:
+      user_not_found: "Không tìm thấy tên"
+      success: "Thành công"
