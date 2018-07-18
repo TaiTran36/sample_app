@@ -95,6 +95,7 @@ en:
       signUpNow: "Sign Up Now!"
       email: "Email"
       password: "Password"
+      remember: "Remember me on this computer"
     create:
       invalid: "Invalid email/password combination"
   activerecord:

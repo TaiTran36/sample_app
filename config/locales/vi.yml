@@ -74,6 +74,7 @@ vi:
       signUpNow: "Đăng kí tài khoản!"
       email: "Email"
       password: "Mật khẩu"
+      remember: "Lưu mật khẩu"
     create:
       invalid: "Email hoặc mật khẩu không đúng"
   activerecord:
