@@ -63,11 +63,21 @@ en:
     new:
       signup: "Sign up"
       wil: "This will be a signup page for new users."
-      name: "name"
-      email: "email"
-      password: "password"
       confirmation: "Confirmation"
       createMyAccount: "Create my account"
+    edit:
+      editUser: "Edit User"
+      update: "Update your profile"
+      save: "Save changes"
+      change: "Change"
+    index:
+      allUsers: "All users"
+      will_paginate:
+        Previous: "Previous"
+
+    user:
+      delete: "Delete"
+      sure: "You sure?"
   layouts:
     application:
       baseTitle: "Ruby on Rails tutorial"
@@ -118,7 +128,8 @@ en:
         name: "Name"
         email: "Email"
         password: "Password"
-        password_confirmation: "Xác nhận mật khẩu"
+        password_confirmation: "Confirmation"
+        button_text: "Save changes"
   shared:
     error_message:
       message: "The form contains "
@@ -127,3 +138,6 @@ en:
     users_controller:
       user_not_found: "User not found"
       success: "Success"
+  will_paginate:
+    previous_label: "⬅ Previous"
+    next_label: "➡ Next"

@@ -25,7 +25,7 @@ vi:
       about: "Giới thiệu"
       the: "Đây là cuốn sách "
       rails: "Hướng dẫn Ruby on Rails"
-      is:    ""
+      is: ""
       book: ""
       and: "và"
       to: " .Nó hướng dẫn các lập trình viên về"
@@ -42,11 +42,20 @@ vi:
     new:
       signup: "Đăng nhập"
       wil: "Trang đăng nhập dành cho người mới sử dụng."
-      name: "Tên đăng nhập"
-      email: "Email đăng kí"
-      password: "Mật khẩu"
       confirmation: "Xác nhận mật khẩu"
       createMyAccount: "Tạo tài khoản"
+    edit:
+      editUser: "Cập nhập"
+      update: "Thay đổi thông tin cá nhân"
+      save: "Lưu thay đổi"
+      change: "Thay ảnh"
+    index:
+      allUsers: "Tất cả người dùng"
+      will_paginate:
+        Previous: "Quay lại" 
+    user:
+      delete: "Xóa tài khoản"
+      sure: "Bạn chắc chắn muốn xóa"
   layouts:
     application:
       baseTitle: "Ứng dụng web về  Ruby on Rails"
@@ -97,7 +106,8 @@ vi:
         name: "Tên"
         email: "Email"
         password: "Mật khẩu"
-        password_confirmation: "Xác nhận mật khẩu"
+        password_confirmation: "Xác nhận"
+        button_text: "Lưu thay đổi"
   shared:
     error_message:
       message: "Chào mừng đến với ứng dụng"
@@ -106,3 +116,6 @@ vi:
     users_controller:
       user_not_found: "Không tìm thấy tên"
       success: "Thành công"
+  will_paginate:
+    previous_label: "⬅ Quay lại"
+    next_label: "➡ Tiếp"
