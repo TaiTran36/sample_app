@@ -15,6 +15,7 @@ class User < ApplicationRecord
     length: {minimum: Settings.password_min_length}
 
   has_secure_password
+  validates :password, presence: true, length: {minimum: 6}, allow_nil: true
 
   def self.digest string
     cost = if ActiveModel::SecurePassword.min_cost
@@ -31,7 +32,7 @@ class User < ApplicationRecord
 
   def remember
     self.remember_token = User.new_token
-    update_attribute(:remember_digest, User.digest(remember_token))
+    update_attribute(:remember_token, User.digest(remember_token))
   end
 
   def authenticated? remember_token
@@ -40,7 +41,7 @@ class User < ApplicationRecord
   end
 
   def forget
-    update_attribute(:remember_digest, nil)
+    update_attribute(:remember_token, nil)
   end
 
   private
